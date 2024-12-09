@@ -3,7 +3,7 @@
 <?php 
 
 if (!isset($_SESSION['user_name'])) {
-    header("location:users.php");
+    header("location:index.php");
     exit();
 }
 ?>

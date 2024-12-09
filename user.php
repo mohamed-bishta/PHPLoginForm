@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
     if (count($errosr) > 0) {
         $_SESSION['errors'] = $errosr;
-        header("location:users.php");
+        header("location:index.php");
         exit();
 
     } else {
